@@ -8,7 +8,7 @@ export default function TabLayout() {
     <Tabs screenOptions={{tabBarActiveTintColor:"coral"}}>
         <Tabs.Screen name="menu" options={{
           title: "Menu", 
-          headerShown: false,
+          headerShown: false, 
           tabBarIcon: ({focused, color}) => {
             return focused? (
               <Entypo name="home" size={24} color={color}/>
